@@ -1,0 +1,224 @@
+# depslib dependency file v1.0
+1577485539 source:d:\work\conquerorcommander\src\string_utils.c
+	<stdlib.h>
+	<string.h>
+	"string_utils.h"
+
+1577484777 d:\work\conquerorcommander\include\string_utils.h
+	<stdarg.h>
+	<stdbool.h>
+
+1577483530 source:d:\work\conquerorcommander\main.c
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+	"string_utils.h"
+
+1578072058 source:d:\work\conquerorcommander\main.cpp
+	<iostream>
+	<dos.h>
+	<stdio.h>
+	"graphics.h"
+	"Constants.h"
+	"Controls.h"
+	"InfoBox.h"
+
+1578072058 d:\work\conquerorcommander\include\constants.h
+
+1577541955 d:\work\conquerorcommander\include\winbgim.h
+	<windows.h>
+	<limits.h>
+	<sstream>
+
+1577532112 source:d:\work\conquerorcommander\src\stringutils.c
+	<stdlib.h>
+	<string.h>
+	"StringUtils.h"
+
+1578077781 d:\work\conquerorcommander\include\stringutils.h
+	<stdarg.h>
+	<stdbool.h>
+	<stdlib.h>
+	"Constants.h"
+
+1577658961 d:\work\conquerorcommander\include\graphics.h
+	<windows.h>
+	<limits.h>
+	<sstream>
+
+1577542538 source:d:\work\conquerorcommander\src\bgiout.cxx
+
+1577565755 source:d:\work\conquerorcommander\src\dibutil.cxx
+	<windows.h>
+	<assert.h>
+	"dibapi.h"
+	"dibutil.h"
+	<stdio.h>
+
+1577540428 d:\work\conquerorcommander\include\dibapi.h
+
+1577540428 d:\work\conquerorcommander\include\dibutil.h
+
+1577566052 source:d:\work\conquerorcommander\src\drawing.cxx
+	<windows.h>
+	<windowsx.h>
+	<math.h>
+	<ocidl.h>
+	<olectl.h>
+	<string.h>
+	"winbgim.h"
+	"winbgitypes.h"
+	"dibapi.h"
+	<iostream>
+
+1577540430 d:\work\conquerorcommander\include\winbgitypes.h
+	<windows.h>
+	<tchar.h>
+	<queue>
+	<string>
+	"winbgim.h"
+	<vector>
+
+1577565755 source:d:\work\conquerorcommander\src\file.cxx
+	<windows.h>
+	<string.h>
+	<stdio.h>
+	<math.h>
+	<io.h>
+	<direct.h>
+	<stdlib.h>
+	"dibutil.h"
+	"dibapi.h"
+	"winbgitypes.h"
+
+1577703689 source:d:\work\conquerorcommander\src\misc.cxx
+	<windows.h>
+	<windowsx.h>
+	"winbgim.h"
+	"winbgitypes.h"
+	<iostream>
+
+1577725800 source:d:\work\conquerorcommander\src\mouse.cxx
+	<windows.h>
+	<windowsx.h>
+	"winbgim.h"
+	"winbgitypes.h"
+
+1577540429 source:d:\work\conquerorcommander\src\palette.cxx
+	<windows.h>
+	<windowsx.h>
+	"winbgim.h"
+	"winbgitypes.h"
+
+1577565511 source:d:\work\conquerorcommander\src\text.cxx
+	<windows.h>
+	<windowsx.h>
+	<iostream>
+	<sstream>
+	<string>
+	"winbgim.h"
+	"winbgitypes.h"
+
+1577565305 source:d:\work\conquerorcommander\src\winbgi.cxx
+	<windows.h>
+	<windowsx.h>
+	<stdio.h>
+	<iostream>
+	<vector>
+	"winbgim.h"
+	"winbgitypes.h"
+
+1577560286 source:d:\work\conquerorcommander\src\winthread.cxx
+	<windows.h>
+	<windowsx.h>
+	"winbgim.h"
+	"winbgitypes.h"
+	<vector>
+	<queue>
+	<iostream>
+	<iostream>
+
+1578072059 d:\work\conquerorcommander\include\menu.h
+	"Constants.h"
+
+1578072058 d:\work\conquerorcommander\include\controls.h
+	<functional>
+	"Menu.h"
+
+1577570077 d:\work\conquerorcommander\include\theme.h
+
+1578077940 source:d:\work\conquerorcommander\src\controls.cpp
+	<thread>
+	"graphics.h"
+	"Constants.h"
+	"Controls.h"
+	"StringUtils.h"
+	"Theme.h"
+
+1577561668 source:d:\work\conquerorcommander\src\fileutils.cpp
+	"FileUtils.h"
+
+1577910563 d:\work\conquerorcommander\include\fileutils.h
+
+1577570414 source:d:\work\conquerorcommander\src\theme.cpp
+	"graphics.h"
+	"Theme.h"
+
+1577614914 source:d:\work\conquerorcommander\src\menu.cpp
+	<stdlib.h>
+	"Menu.h"
+
+1578077900 source:d:\work\conquerorcommander\src\stringutils.cpp
+	<stdlib.h>
+	<string.h>
+	"graphics.h"
+	"Constants.h"
+	"StringUtils.h"
+
+1577715366 source:d:\work\conquerorcommander\src\clickhelper.cpp
+	"graphics.h"
+	"ClickHelper.h"
+
+1577724226 d:\work\conquerorcommander\include\clickhelper.h
+
+1577898086 d:\work\conquerorcommander\include\imagerestorer.h
+
+1577730353 source:d:\work\conquerorcommander\src\imagerestorer.cpp
+	"graphics.h"
+	"ClickHelper.h"
+	"ImageRestorer.h"
+
+1578072058 d:\work\conquerorcommander\include\infobox.h
+	"ImageRestorer.h"
+
+1578077989 source:d:\work\conquerorcommander\src\infobox.cpp
+	"Constants.h"
+	"Controls.h"
+	"InfoBox.h"
+	"StringUtils.h"
+
+1578072058 source:d:\work\conquerorcommander\src\directorylistresult.cpp
+	<stdlib.h>
+	"DirectoryListResult.h"
+
+1578072119 d:\work\conquerorcommander\include\directorylistresult.h
+	<vector>
+	"Constants.h"
+
+1578077301 source:d:\work\conquerorcommander\src\directoryutils.cpp
+	"DirectoryUtils.h"
+	"Path.h"
+
+1578074710 d:\work\conquerorcommander\include\directoryutils.h
+	"DirectoryListResult.h"
+
+1578077497 d:\work\conquerorcommander\include\path.h
+	"Constants.h"
+
+1578078025 source:d:\work\conquerorcommander\src\path.cpp
+	<stdarg.h>
+	<stdlib.h>
+	<string.h>
+	"Path.h"
+	"StringUtils.h"
+

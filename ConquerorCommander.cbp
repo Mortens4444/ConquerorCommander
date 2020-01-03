@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ConquerorCommander" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ConquerorCommander" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++1z" />
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32" />
+					<Add directory="lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ConquerorCommander" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++1z" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32" />
+					<Add directory="lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="include/ClickHelper.h" />
+		<Unit filename="include/Constants.h" />
+		<Unit filename="include/Controls.h" />
+		<Unit filename="include/DirectoryListResult.h" />
+		<Unit filename="include/DirectoryUtils.h" />
+		<Unit filename="include/FileUtils.h" />
+		<Unit filename="include/ImageRestorer.h" />
+		<Unit filename="include/InfoBox.h" />
+		<Unit filename="include/Menu.h" />
+		<Unit filename="include/Path.h" />
+		<Unit filename="include/StringUtils.h" />
+		<Unit filename="include/Theme.h" />
+		<Unit filename="include/dibapi.h" />
+		<Unit filename="include/dibutil.h" />
+		<Unit filename="include/graphics.h" />
+		<Unit filename="include/winbgim.h" />
+		<Unit filename="include/winbgitypes.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="readme.txt" />
+		<Unit filename="src/ClickHelper.cpp" />
+		<Unit filename="src/Controls.cpp" />
+		<Unit filename="src/DirectoryListResult.cpp" />
+		<Unit filename="src/DirectoryUtils.cpp" />
+		<Unit filename="src/FileUtils.cpp" />
+		<Unit filename="src/ImageRestorer.cpp" />
+		<Unit filename="src/InfoBox.cpp" />
+		<Unit filename="src/Menu.cpp" />
+		<Unit filename="src/Path.cpp" />
+		<Unit filename="src/StringUtils.cpp" />
+		<Unit filename="src/Theme.cpp" />
+		<Unit filename="src/bgiout.cxx" />
+		<Unit filename="src/dibutil.cxx" />
+		<Unit filename="src/drawing.cxx" />
+		<Unit filename="src/file.cxx" />
+		<Unit filename="src/misc.cxx" />
+		<Unit filename="src/mouse.cxx" />
+		<Unit filename="src/palette.cxx" />
+		<Unit filename="src/text.cxx" />
+		<Unit filename="src/winbgi.cxx" />
+		<Unit filename="src/winthread.cxx" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
