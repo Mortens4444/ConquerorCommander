@@ -27,12 +27,4 @@
 
 typedef char* String;
 
-typedef void VoidResultNoParams();
-
-typedef int IntResultIntParam(int);
-
-typedef VoidResultNoParams* ProcedureCallback;
-
-typedef IntResultIntParam* FunctionCallback;
-
 #endif

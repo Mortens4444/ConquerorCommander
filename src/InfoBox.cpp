@@ -28,9 +28,8 @@ InfoBox::InfoBox(String text, int height)
     CreateBox(saveLeft, saveTop, saveRight, saveBottom);
     CreateLabel(left + HALF_OF_EXTRA_WIDTH, top + HALF_OF_EXTRA_WIDTH, text);
 
-    CreateButton(buttonLeft, buttonTop, buttonRight, buttonBottom, buttonText);
-    imageRestorer->WaitForAction();
-    //CreateButton(buttonLeft, buttonTop, buttonRight, buttonBottom, buttonText, (ProcedureCallback)&imageRestorer->WaitForAction);
+    std::function<void(void)> callback = std::bind( &ImageRestorer::WaitForAction, imageRestorer);
+    CreateButton(buttonLeft, buttonTop, buttonRight, buttonBottom, buttonText, callback);
 }
 
 InfoBox::~InfoBox()

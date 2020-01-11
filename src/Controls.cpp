@@ -6,6 +6,7 @@
 #include "Controls.h"
 #include "StringUtils.h"
 #include "Theme.h"
+//#include "InfoBox.h"
 
 void DrawBorder(int left, int top, int right, int bottom)
 {
@@ -46,10 +47,7 @@ void CreateLabel(int left, int top, String text)
     outtextxy(left, top, text);
 }
 
-// f_display_42 = []() { print_num(42); };
-//void CreateButton(int left, int top, int right, int bottom, String text, std::function<void(ImageRestorer const &, void)> callback)
-//void CreateButton(int left, int top, int right, int bottom, String text, std::function<void()> callback)
-void CreateButton(int left, int top, int right, int bottom, String text, ProcedureCallback callback)
+void CreateButton(int left, int top, int right, int bottom, String text, std::function<void(void)> callback)
 {
     CreateLabel(left + HALF_OF_EXTRA_WIDTH, top + MARGIN, text);
     Draw3DBorder(left, top, right, bottom);
@@ -87,7 +85,7 @@ void CreateStatusBar(int left, int top, ...)
     while (!StringUtils::IsNullOrEmpty(current = va_arg(args, String)))
     {
         int width = StringUtils::GetTextWidth(current);
-        CreateButton(left, top, left + width, top + 30, current, [] () { /*InfoBox("Hi");*/ });
+        CreateButton(left, top, left + width, top + 30, current, [] () { /*InfoBox((char*)"Hi");*/ });
         left += width + HALF_OF_EXTRA_WIDTH;
     }
     va_end(args);

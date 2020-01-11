@@ -1,12 +1,14 @@
 #ifndef MENU_H_INCLUDED
 #define MENU_H_INCLUDED
 
+#include <functional>
+
 #include "Constants.h"
 
 typedef struct
 {
     String Text;
-	FunctionCallback Callback;
+	std::function<int(int)> Callback;
 	int Parameter;
 } MenuItem;
 
